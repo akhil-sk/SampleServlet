@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<welcome-file-list>
+		<welcome-file>home.jsp</welcome-file>
+	</welcome-file-list>
+	<!-- if @webservlet is not used we need to provide mapping for each servlet 
+		<servlet>
+			<display-name>sampleServletDisplayName</display-name>
+			<servlet-name>mySampleServlet</servlet-name> 
+			<servlet-class>com.sampleServlet.mySampleServlet</servlet-class>
+		</servlet> 
+		<servlet-mapping>
+			<servlet-name>mySampleServlet</servlet-name>
+			<url-pattern>/mySampleServlet</url-pattern> 
+		</servlet-mapping> -->
+</web-app>
